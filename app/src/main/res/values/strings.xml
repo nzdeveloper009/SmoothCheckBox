@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SmoothCheckBox</string>
+    <string name="string_item_subffix">"Item: "</string>
 </resources>

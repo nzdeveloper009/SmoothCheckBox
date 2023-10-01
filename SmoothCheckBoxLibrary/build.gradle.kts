@@ -45,9 +45,9 @@ android {
 }
 
 configure<PublishingExtension> {
-    publications.create<MavenPublication>("SmoothCheckboxLibrary") {
+    publications.create<MavenPublication>("SmoothCheckbox") {
         groupId = "com.nzdeveloper"
-        artifactId = "SmoothCheckboxLibrary"
+        artifactId = "smoothcheckboxlibrary"
         version = "0.9-alpha"
         artifact("$buildDir/outputs/aar/SmoothCheckBoxLibrary-release.aar")
 
@@ -57,8 +57,10 @@ configure<PublishingExtension> {
             name = "GithubPackages"
             url = uri("https://maven.pkg.github.com/nzdeveloper009/SmoothCheckBox")
             credentials {
-                username = System.getenv("GITHUB_USER")
-                password = System.getenv("GITHUB_TOKEN")
+                /*username = System.getenv("GITHUB_USER_NAME")
+                password = System.getenv("GITHUB_TOKEN")*/
+                username = "nzdeveloper009"
+                password = "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"
             }
         }
     }
