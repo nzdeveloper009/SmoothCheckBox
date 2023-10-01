@@ -41,7 +41,7 @@
 
 
 ## Steps to use features in the project:
-> Step 1. Add the JitPack repository to your settings.gradle.kts file
+> Step 1. Add the Maven repository to your settings.gradle.kts file
 ```gradle
 maven {
   name = "GithubPackages"
@@ -52,9 +52,17 @@ maven {
   }
 }
 ```
-> Step 2. Add the dependency
+> Step 2. Add the dependency to your module :app
 ```gradle
 dependencies {
   implementation("com.nzdeveloper:smoothcheckboxlibrary:0.9-alpha")
 }
 ```
+<br/><br/>
+<hr/>
+
+<h3 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Thanks+for+visiting!+✌️;+Shoot+me+a+message+on+Linkedin!;I'm+always+down+to+collab+:)">
+</h3>
+
+<br/>
