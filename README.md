@@ -2,7 +2,7 @@
 
 ### ScreenShot:
 
-![](https://github.com/nzdeveloper009/SmoothCheckBox/blob/main/sample.gif?raw=true)
+<img src="https://github.com/nzdeveloper009/SmoothCheckBox/blob/main/sample.gif?raw=true" width="50%" height="50%"/>
 
 ### Attrs
 |attr|format|description|
